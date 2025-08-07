@@ -1,48 +1,47 @@
+import React from 'react';
 import clsx from 'clsx';
-import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Gammasoft is...',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      • The nickname of <a href="https://github.com/yfiumefreddo">Yves Fiumefreddo</a>.
+      <br/>• More than thirty years of passion for high technology especially in development (c++, c#, objective-c, ...).
+      <br/>• Object-oriented programming is more than a mindset.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      <br/>
+      <br/>
+      <a href="."><img src="pictures/gammasoft_256.png"/></a>
+      <br/>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '... also',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      • The c++ is my favorite language, naturaly followed by c#.
+      <br/>• I like Apple products for their simplicity of use but I also admire the technologies of Microsoft for their efficiency as for example the .Net Framework.
+      <br/>• The name Gammasoft was created by analogy with Microsoft. I know... but I was young at this time.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('row')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+      <div className="text--left padding-horiz--md">
+        <h3>{title}</h3>
         <p>{description}</p>
       </div>
     </div>
@@ -53,11 +52,9 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
+        {FeatureList.map((props, idx) => (
+          <Feature key={idx} {...props} />
+        ))}
       </div>
     </section>
   );

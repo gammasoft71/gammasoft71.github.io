@@ -1,41 +1,35 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
+// Note: type annotations allow type checking and IDEs autocompletion
 
-import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+//const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require('prism-react-renderer/themes/palenight');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
-
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
+  //title: 'Gammasoft aims to make c++ fun again.',
+  title: ' ',
+  //tagline: 'xtd (pronounced "extend") is a modern C++20 framework to create console, GUI and unit test applications on Microsoft Windows, macOS, Linux, iOS and android (*).',
+  favicon: 'pictures/gamasoft.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://gammasoft71.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'gammasoft71', // Usually your GitHub org/user name.
+  projectName: 'gammasoft71', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -47,29 +41,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: false,
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: false,
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -78,26 +56,34 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Gammasoft71',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'pictures/logo.png',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'doc',
+            docId: 'libraries/README',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Libraries',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            type: 'doc',
+            docId: 'examples/README',
+            position: 'left',
+            label: 'Examples',
+          },
+          {
+            href: 'https://github.com/gammasoft71',
+            label: 'Sources',
+            position: 'left',
+          },
+          {
+            href: 'https://sourceforge.net/u/gammasoft71/profile/',
+            label: 'Project',
+            position: 'left',
           },
         ],
       },
@@ -105,52 +91,26 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
+            html: `
+              <div style="display: flex; justify-content: center; gap: 1rem; align-items: center;">
+                <a href="https://gammasoft71.github.io"><img src="https://gammasoft71.github.io/xtd/pictures/xtd32.png" alt="xtd" /></a>
+                <a href="https://github.com/gammasoft71"><img src="https://gammasoft71.github.io/xtd/pictures/github32.png" alt="GitHub" /></a>
+                <a href="https://sourceforge.net/u/gammasoft71/profile"><img src="https://gammasoft71.github.io/xtd/pictures/sourceforge32.png" alt="SourceForge" /></a>
+                <a href="https://www.facebook.com/gammasoft71"><img src="https://gammasoft71.github.io/xtd/pictures/facebook32.png" alt="Facebook" /></a>
+                <a href="https://twitter.com/gammasoft71"><img src="https://gammasoft71.github.io/xtd/pictures/twitter32.png" alt="Twitter" /></a>
+                <a href="https://discordapp.com/users/gammasoft#9288"><img src="https://gammasoft71.github.io/xtd/pictures/discord32.png" alt="Discord" /></a>
+                <a href="mailto:gammasoft71@gmail.com"><img src="https://gammasoft71.github.io/xtd/pictures/mail32.png" alt="Mail" /></a>
+              </div>
+            `,
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Gammasoft.`,
       },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
       },
     }),
 };
 
-export default config;
+module.exports = config;
