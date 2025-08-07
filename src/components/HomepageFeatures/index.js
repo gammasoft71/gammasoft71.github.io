@@ -8,7 +8,7 @@ const FeatureList = [
     description: (
       <>
       • The nickname of <a href="https://github.com/yfiumefreddo">Yves Fiumefreddo</a>.
-      <br/>• More than thirty years of passion for high technology especially in development (c++, c#, objective-c, ...).
+      <br/>• More than thirty years of passion for high technology especially in development (C++, C#, objective-c, ...).
       <br/>• Object-oriented programming is more than a mindset.
       </>
     ),
@@ -27,7 +27,7 @@ const FeatureList = [
     title: '... also',
     description: (
       <>
-      • The c++ is my favorite language, naturaly followed by c#.
+      • The C++ is my favorite language, naturaly followed by C#.
       <br/>• I like Apple products for their simplicity of use but I also admire the technologies of Microsoft for their efficiency as for example the .Net Framework.
       <br/>• The name Gammasoft was created by analogy with Microsoft. I know... but I was young at this time.
       </>
