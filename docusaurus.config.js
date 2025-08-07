@@ -7,9 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/palenight');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  //title: 'Gammasoft aims to make c++ fun again.',
-  title: ' ',
-  //tagline: 'xtd (pronounced "extend") is a modern C++20 framework to create console, GUI and unit test applications on Microsoft Windows, macOS, Linux, iOS and android (*).',
+  title: 'Gammasoft aims to make C++ fun again.',
   favicon: 'pictures/gamasoft.ico',
 
   // Set the production url of your site here
