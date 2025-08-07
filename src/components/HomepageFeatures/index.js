@@ -7,7 +7,7 @@ const FeatureList = [
     title: 'Gammasoft is...',
     description: (
       <>
-      • The nickname of <a href="https://github.com/yfiumefreddo">Yves Fiumefreddo</a>.
+      • The nickname of <a href="https://about.me/yves.fiumefreddo">Yves Fiumefreddo</a>.
       <br/>• More than thirty years of passion for high technology especially in development (C++, C#, objective-c, ...).
       <br/>• Object-oriented programming is more than a mindset.
       </>
@@ -16,7 +16,7 @@ const FeatureList = [
   {
     description: (
       <>
-      <a href="."><img src="pictures/gammasoft_256.png" alt="gammasoft"/></a>
+      <a href="/docs/floppy"><img src="pictures/gammasoft_256.png" alt="gammasoft"/></a>
       <br/>
       </>
     ),
