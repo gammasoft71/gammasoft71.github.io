@@ -16,8 +16,6 @@ const FeatureList = [
   {
     description: (
       <>
-      <br/>
-      <br/>
       <a href="."><img src="pictures/gammasoft_256.png"/></a>
       <br/>
       </>
