@@ -16,7 +16,7 @@ const FeatureList = [
   {
     description: (
       <>
-      <a href="/docs/floppy"><img src="pictures/gammasoft_256.png" alt="gammasoft"/></a>
+      <a href="/docs/floppy"><img src="pictures/gammasoft256.png" alt="gammasoft"/></a>
       <br/>
       </>
     ),
