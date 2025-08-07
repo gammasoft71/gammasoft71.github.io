@@ -17,5 +17,5 @@
 ## See also
 
 * [website](https://gammasoft71.github.io)
-* [github](https://github.com/gammasoft71)
+* [sources](https://github.com/gammasoft71)
 * [projects](https://sourceforge.net/u/gammasoft71/profile/)
