@@ -91,6 +91,11 @@ const config = {
             label: 'Project',
             position: 'left',
           },
+          {
+            href: 'mailto:gammasoft71@gmail.com',
+            label: 'Contact',
+            position: 'left',
+          },
         ],
       },
       footer: {
