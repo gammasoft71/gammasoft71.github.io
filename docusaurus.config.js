@@ -86,7 +86,7 @@ const config = {
           },
           {
             href: 'https://sourceforge.net/u/gammasoft71/profile/',
-            label: 'Project',
+            label: 'Projects',
             position: 'left',
           },
           {
