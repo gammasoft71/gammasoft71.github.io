@@ -76,6 +76,12 @@ const config = {
             label: 'Examples',
           },
           {
+            type: 'doc',
+            docId: 'floppy/README',
+            position: 'left',
+            label: 'Floppy',
+          },
+          {
             href: 'https://github.com/gammasoft71',
             label: 'Sources',
             position: 'left',
@@ -93,7 +99,7 @@ const config = {
           {
             html: `
               <div style="display: flex; justify-content: center; gap: 1rem; align-items: center;">
-                <a href="https://gammasoft71.github.io"><img src="https://gammasoft71.github.io/xtd/pictures/xtd32.png" alt="xtd" /></a>
+                <a href="https://gammasoft71.github.io"><img src="https://gammasoft71.github.io/xtd/pictures/gammasoft32.png" alt="xtd" /></a>
                 <a href="https://github.com/gammasoft71"><img src="https://gammasoft71.github.io/xtd/pictures/github32.png" alt="GitHub" /></a>
                 <a href="https://sourceforge.net/u/gammasoft71/profile"><img src="https://gammasoft71.github.io/xtd/pictures/sourceforge32.png" alt="SourceForge" /></a>
                 <a href="https://www.facebook.com/gammasoft71"><img src="https://gammasoft71.github.io/xtd/pictures/facebook32.png" alt="Facebook" /></a>
