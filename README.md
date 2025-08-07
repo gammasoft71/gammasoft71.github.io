@@ -6,7 +6,7 @@
 • More than thirty years of passion for high technology especially in development (C++, C#, objective-c, ...).
 • Object-oriented programming is more than a mindset.
 
-[![floppy](static/picturrs/floppy256.png)](https://gammasoft71.github.io/docs/floppy)
+[![floppy](static/pictures/gammasoft256.png)](https://gammasoft71.github.io/docs/floppy)
 
 ... also
 
