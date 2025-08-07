@@ -56,3 +56,8 @@ main-wrapper,
   flex: 0 0 100% !important;
   max-width: 100% !important;
 }
+
+.navbar__link > svg,
+.navbar__link > .iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-next-theme-Navbar-Item-IconExternalLink-styles-module {
+  display: none !important;
+}
