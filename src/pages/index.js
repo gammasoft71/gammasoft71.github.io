@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <Layout
       title={`Gammasoft`}
-      description="Description will go into a meta tag Gammasoft aims to make C++ fun again. <head />">
+      description="Gammasoft aims to make C++ fun again. <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
