@@ -12,8 +12,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="Gammasoft">{siteConfig.title}</h1>
+        <p className="Gammasoft aims to make C++ fun again.">{siteConfig.tagline}</p>
       </div>
     </header>
   );
@@ -23,8 +23,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Modern C++17/20 multiplatform framework`}
-      description="Description will go into a meta tag in <head />">
+      title={`Gammasoft`}
+      description="Description will go into a meta tag Gammasoft aims to make C++ fun again. <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
