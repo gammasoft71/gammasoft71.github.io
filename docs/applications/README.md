@@ -1,0 +1,8 @@
+# Applications
+
+Gammasoft has some applications.
+
+|                                                                                                                             | Project                                                                   | Brief                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![xtd_tools](/pictures/xtd_tools.png "xtd_tools")](https://github.com/gammasoft71/xtd_tools)                               | [xtd_tools](https://github.com/gammasoft71/xtd_tools)                     | The xtd_tools project is a collection of tools to help <a href="https://gammasoft71.github.io/xtd/" target="_self">xtd</a> development. This project works on Windows, macOS and Linux platforms. |
+| [![tunit_gui_win_forms](/pictures/tunit_gui_win_forms.png "xtd_tools")](https://github.com/gammasoft71/tunit_gui_win_forms) | [xtd.tunit.gui.forms](https://github.com/gammasoft71/tunit_gui_win_forms) | xtd.tunit.gui.forms is a prototype written in C# to demonstrate the possibility of having a graphical interface for <a href="https://gammasoft71.github.io/xtd/" target="_self">xtd.tunit</a>.    |

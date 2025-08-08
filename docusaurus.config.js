@@ -63,6 +63,12 @@ const config = {
         items: [
           {
             type: 'doc',
+            docId: 'applications/README',
+            position: 'left',
+            label: 'Applications',
+          },
+          {
+            type: 'doc',
             docId: 'libraries/README',
             position: 'left',
             label: 'Libraries',
