@@ -75,6 +75,12 @@ const config = {
           },
           {
             type: 'doc',
+            docId: 'courses/README',
+            position: 'left',
+            label: 'Courses',
+          },
+          {
+            type: 'doc',
             docId: 'floppy/README',
             position: 'left',
             label: 'Floppy',
