@@ -2,7 +2,7 @@
 
 ## Gammasoft is...
 
-* The creator of the well-known [xtd](https://gammasoft71.github.io/xtd/) framework.
+* Creator of the [xtd](https://gammasoft71.github.io/xtd/) framework.
 * The nickname of [Yves Fiumefreddo](https://about.me/yves.fiumefreddo).
 * More than thirty years of passion for high technology especially in development (C++, C#, objective-c, ...).
 * Object-oriented programming is more than a mindset.
