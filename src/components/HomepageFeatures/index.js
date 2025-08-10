@@ -8,7 +8,7 @@ const FeatureList = [
     description: (
       <>
       • Creator of the <a href="https://gammasoft71.github.io/xtd/" target="_self">xtd</a> framework.
-      <br/>• The nickname of <a href="https://about.me/yves.fiumefreddo">Yves Fiumefreddo</a>.
+      <br/>• The nickname of <a href="https://yfiumefreddo.github.io">Yves Fiumefreddo</a>.
       <br/>• More than thirty years of passion for high technology especially in development (C++, C#, objective-c, ...).
       <br/>• Object-oriented programming is more than a mindset.
       </>
