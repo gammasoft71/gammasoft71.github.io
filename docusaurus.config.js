@@ -114,13 +114,13 @@ const config = {
           {
             html: `
               <div style="display: flex; justify-content: center; gap: 1rem; align-items: center;">
-                <a href="https://gammasoft71.github.io"><img src="https://gammasoft71.github.io/xtd/pictures/gammasoft32.png" alt="xtd" /></a>
-                <a href="https://github.com/gammasoft71"><img src="https://gammasoft71.github.io/xtd/pictures/github32.png" alt="GitHub" /></a>
-                <a href="https://sourceforge.net/u/gammasoft71/profile"><img src="https://gammasoft71.github.io/xtd/pictures/sourceforge32.png" alt="SourceForge" /></a>
-                <a href="https://www.facebook.com/gammasoft71"><img src="https://gammasoft71.github.io/xtd/pictures/facebook32.png" alt="Facebook" /></a>
-                <a href="https://twitter.com/gammasoft71"><img src="https://gammasoft71.github.io/xtd/pictures/twitter32.png" alt="Twitter" /></a>
-                <a href="https://discordapp.com/users/gammasoft#9288"><img src="https://gammasoft71.github.io/xtd/pictures/discord32.png" alt="Discord" /></a>
-                <a href="mailto:gammasoft71@gmail.com"><img src="https://gammasoft71.github.io/xtd/pictures/mail32.png" alt="Mail" /></a>
+                <a href="https://gammasoft71.github.io"><img src="https://gammasoft71.github.io/pictures/gammasoft32.png" alt="xtd" /></a>
+                <a href="https://github.com/gammasoft71"><img src="https://gammasoft71.github.io/pictures/github32.png" alt="GitHub" /></a>
+                <a href="https://sourceforge.net/u/gammasoft71/profile"><img src="https://gammasoft71.github.io/pictures/sourceforge32.png" alt="SourceForge" /></a>
+                <a href="https://www.facebook.com/gammasoft71"><img src="https://gammasoft71.github.io/pictures/facebook32.png" alt="Facebook" /></a>
+                <a href="https://x.com/gammasoft71"><img src="https://gammasoft71.github.io/pictures/x32.png" alt="Twitter" /></a>
+                <a href="https://discordapp.com/users/gammasoft#9288"><img src="https://gammasoft71.github.io/pictures/discord32.png" alt="Discord" /></a>
+                <a href="mailto:gammasoft71@gmail.com"><img src="https://gammasoft71.github.io/pictures/mail32.png" alt="Mail" /></a>
               </div>
             `,
           },
