@@ -107,6 +107,12 @@ const config = {
             label: 'Contact',
             position: 'left',
           },
+          {
+            type: 'doc',
+            docId: 'statistics/README',
+            position: 'left',
+            label: 'Statistics',
+          },
         ],
       },
       footer: {
