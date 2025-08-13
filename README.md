@@ -1,4 +1,6 @@
-# Gammasoft aims to make C++ fun again.
+# Gammasoft
+
+** Gammasoft aims to make C++ fun again.**
 
 ## Gammasoft is...
 
