@@ -33,7 +33,6 @@
   --ifm-font-color-base-inverse: #fff;
 }
 
-
 .theme-doc-toc-desktop,
 .theme-doc-toc-mobile,
 .table-of-contents {
@@ -60,9 +59,4 @@ main-wrapper,
 .navbar__link > svg,
 .navbar__link > .iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-next-theme-Navbar-Item-IconExternalLink-styles-module {
   display: none !important;
-}
-
-.hero .hero__title {
-  color: white !important;
-  text-shadow: 1px 1px 2px #0008;
 }
