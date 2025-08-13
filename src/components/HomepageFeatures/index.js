@@ -4,6 +4,15 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
+    description: (
+      <>
+      <font size="5">Gammasoft aims to make C++ fun again.</font>
+      <br/>
+      <br/>
+      </>
+    ),
+  },
+  {
     title: 'Gammasoft is...',
     description: (
       <>

@@ -7,7 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/palenight');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Gammasoft aims to make C++ fun again.',
+  title: 'Gammasoft',
+  // tagline: 'Gammasoft aims to make C++ fun again.',
   favicon: 'pictures/gamasoft.ico',
 
   // Set the production url of your site here
